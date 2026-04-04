@@ -27,6 +27,70 @@
         </iframe>
       </div>
     </section>
+    <section>
+      <h2>Software Design and Engineering Artifact</h2>
+      <p>
+        This artifact demonstrates my software design and engineering skills through
+        the enhancement of a thermostat control system originally developed in
+        CS 350: Emerging Systems Architectures and Technologies.
+      </p>
+
+      <p>
+        The original project was designed to simulate the behavior of a thermostat
+        by reading temperature data from a sensor, switching between states such
+        as off, heat, and cool, and displaying system information on an LCD screen.
+        It also uses LEDs to indicate system activity and sends updates through
+        serial communication. While the original version functioned correctly,
+        the overall structure of the code made it difficult to maintain and expand.
+      </p>
+
+      <p>
+        I chose this artifact for my ePortfolio because it demonstrates my ability
+        to integrate both hardware and software while applying core software
+        engineering principles. In the original implementation, most of the
+        functionality was handled in a single structure, including temperature
+        readings, system logic, LED control, and display updates.
+      </p>
+
+      <p>
+        For the enhancement, I reorganized the program into separate components
+        to improve modularity and maintainability. I created a TemperatureSensor
+        class to handle sensor input, a ManagedDisplay class for LCD output, an
+        LEDController class for LED behavior, and a SerialReporter class for
+        communication. The Thermostat class was then simplified to focus only on
+        managing system states and logic. This redesign made the program easier
+        to read, test, and expand in the future.
+      </p>
+
+      <p>
+        The improvements I made align with the course outcomes identified earlier
+        in the course. I demonstrated Course Outcome 3 by redesigning the system
+        to improve efficiency and maintainability through better software design
+        practices. I also demonstrated Course Outcome 4 by applying appropriate
+        tools and techniques, including the use of a state machine and hardware
+        integration, to improve the system’s functionality. In addition, I made
+        progress toward Course Outcome 5 by incorporating basic error handling
+        for the sensor and serial communication, which helps ensure the system
+        can handle unexpected issues more reliably.
+      </p>
+
+      <p>
+        Through this enhancement, I learned the importance of proper code
+        organization and modular design. Although the original system worked,
+        breaking the application into smaller, focused components made it much
+        easier to manage and understand. One of the biggest challenges was
+        restructuring the code without introducing new errors, especially when
+        separating functionality into different classes. This required careful
+        testing and debugging to ensure the system continued to function as
+        expected.
+      </p>
+      <h2>Project Files</h2>
+      <p>
+        <a href="https://github.com/WallyL24/WallyL24.github.io" target="_blank">
+          View GitHub Repository
+        </a>
+      </p>
+    </section>
   </main>
 
 </body>
